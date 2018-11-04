@@ -17,7 +17,7 @@ public class FrontControllerPatternDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      
+      //invocamos el objeto frontController para poder realizar el procesod de forma adecuada
       FrontController frontController = new FrontController();
       frontController.dispatchRequest("HOME");
       frontController.dispatchRequest("Estudiante");
